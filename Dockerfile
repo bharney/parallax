@@ -14,6 +14,7 @@ COPY .github/nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY app/index.html /usr/share/nginx/html/index.html
 COPY app/404.html /usr/share/nginx/html/404.html
 COPY app/robots.txt /usr/share/nginx/html/robots.txt
+COPY app/images/ /usr/share/nginx/html/images/
 COPY --from=build /app/dist/ /usr/share/nginx/html/
 
 EXPOSE 80
