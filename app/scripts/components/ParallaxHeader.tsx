@@ -31,7 +31,7 @@ const ParallaxHeader: React.FC<ParallaxHeaderProps> = ({ onContactClick }) => (
           <a className="page-scroll" href="#Technologies">Tech</a>
         </p>
         <p className="logo">
-          <a href="#Home"><img src="../images/logoG.png" alt="Built by Brian Harney - Black Bear Design" /></a>
+          <a href="#Home"><img src="/images/logoG.png" alt="Built by Brian Harney - Black Bear Design" /></a>
         </p>
         <p className="text-right navline">
           <a className="page-scroll" href="https://twitter.com/bharney0">Feed</a>
