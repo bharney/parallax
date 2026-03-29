@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 env:
-  IMAGE_NAME: parallax-portfolio
+  IMAGE_NAME: parallax
 
 jobs:
   build-and-deploy:
