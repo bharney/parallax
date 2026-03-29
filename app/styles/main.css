@@ -1,0 +1,54 @@
+/*
+Error: File to import not found or unreadable: bootstrap-sass-official/assets/stylesheets/_bootstrap.scss.
+       Load path: C:/Users/BOOMHEADSHOT/Dropbox/GitHub/BrianPortfolio/app/styles
+        on line 3 of C:\Users\BOOMHEADSHOT\Dropbox\GitHub\BrianPortfolio\app\styles\main.scss
+
+1: $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+2: // bower:scss
+3: @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+4: // endbower
+5: 
+6: @import url(https://fonts.googleapis.com/css?family=Questrial);
+7: @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+8: 
+
+Backtrace:
+C:\Users\BOOMHEADSHOT\Dropbox\GitHub\BrianPortfolio\app\styles\main.scss:3
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:66:in `rescue in import'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:45:in `import'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/sass_scss.rb:375:in `run'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/base.rb:40:in `parse'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/bin/sass:13:in `<top (required)>'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/bin/sass:19:in `load'
+C:/Users/BOOMHEADSHOT/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/bin/sass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap-sass-official/assets/stylesheets/_bootstrap.scss.\A        Load path: C:/Users/BOOMHEADSHOT/Dropbox/GitHub/BrianPortfolio/app/styles\A         on line 3 of C:\Users\BOOMHEADSHOT\Dropbox\GitHub\BrianPortfolio\app\styles\main.scss\A \A 1: $icon-font-path: \"../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/\";\A 2: // bower:scss\A 3: @import \"bootstrap-sass-official/assets/stylesheets/_bootstrap.scss\";\A 4: // endbower\A 5: \A 6: @import url(https://fonts.googleapis.com/css?family=Questrial);\A 7: @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);\A 8: "; }
